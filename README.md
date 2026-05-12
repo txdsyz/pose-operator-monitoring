@@ -20,7 +20,7 @@ https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_
 
 Save it as pose_landmarker.task in the same folder, then run:
 pose_detection.py
-<img width="344" height="477" alt="68724f349029621b5e0a733b2e049af4" src="https://github.com/user-attachments/assets/21d2dfc1-153e-41cf-9b77-40117ef43173" />
+<img width="744" height="477" alt="68724f349029621b5e0a733b2e049af4" src="https://github.com/user-attachments/assets/21d2dfc1-153e-41cf-9b77-40117ef43173" />
 
 
 ## Relevance
