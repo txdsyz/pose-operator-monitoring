@@ -27,6 +27,7 @@ In modern manufacturing, intelligent systems must do more than just track task p
 
 ### 4. Hard Lockout & Manual Override (> 10 Seconds)
 <img width="123" height="123" alt="2" src="https://github.com/user-attachments/assets/bb53349f-927f-49bb-833f-faf55c89ce16" />
+
 * **Status:** `SYSTEM LOCKED` (Red) / `FATIGUE DETECTED`
 * **Behavior:** A critical safety feature for Industry 5.0. If the operator's gaze is diverted for over 10 seconds, the system assumes severe cognitive offloading, fatigue, or an emergency. The UI turns red, the task is completely aborted, and a **Hard Lockout** is triggered. The operator must physically acknowledge the alert by pressing 'R' to restart, ensuring they have regained full situational awareness.
 
