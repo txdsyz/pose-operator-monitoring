@@ -37,14 +37,17 @@ In modern manufacturing, intelligent systems must do more than just track task p
 *   **Manual Override:** After a Hard Lockout, the system refuses to auto-resume, bridging AI capabilities with rigorous Industrial HCI safety standards.
 
 
-## 🛠️ Technical Stack
+##  Technical Stack
 *   **Computer Vision:** OpenCV (Rendering & UI simulation)
 *   **Edge AI Model:** Google MediaPipe (Pose Landmarker, Tasks API)
 *   **Language:** Python 3.10+
 *   **Execution:** Real-time processing (No cloud dependency, suitable for Edge Computing deployment)
 
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/](https://github.com/)[Your-Username]/CogniGuard.git
-   cd CogniGuard
+##  How to Run
+pip install opencv-python mediapipe
+python Cognitive_Support.py
+
+## Acknowledgments
+This project would not have been possible without the following open-source frameworks:
+*   **[Google MediaPipe](https://developers.google.com/mediapipe):** For providing the highly optimized, real-time `Pose Landmarker` model that powers the edge AI inference of this prototype.
+*   **[OpenCV](https://opencv.org/):** For handling the real-time video stream processing and rendering the custom XR-style HUD interface.
