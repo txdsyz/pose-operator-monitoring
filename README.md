@@ -19,7 +19,7 @@ Download the pose landmarker model:
 https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task
 
 Save it as pose_landmarker.task in the same folder, then run:
-python pose_detection.py
+pose_detection.py
 
 ## Relevance
 This prototype demonstrates a foundation for context-aware operator 
