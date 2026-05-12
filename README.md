@@ -18,3 +18,6 @@ Download the model file and run pose_detection.py
 This prototype relates to operator action analysis in 
 human-centric manufacturing, where understanding task 
 context and body posture can support AI-driven assistance systems.
+
+## Acknowledgements
+Pose estimation model from [MediaPipe](https://github.com/google-ai-edge/mediapipe) by Google.
